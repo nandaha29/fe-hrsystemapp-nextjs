@@ -1,8 +1,15 @@
 # HrsystemApp
 Web app base project used for Front-end Developer Practical Task of Nanda Hafiza Yusron
 
-## Tech
+## Tech Stack
 Nextjs + typescript + tailwindcss + zod
+- nextjs -> fe framework
+- typescript -> safety
+- tailwindcss -> ui framework
+- zod -> validation input
+
+## Feature
+- 
 
 ## Installation
 ```
