@@ -1,8 +1,9 @@
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
   return (
-    <div>
+    <>
       <nav className="bg-white border-3 border-b-red-200 drop-shadow-sm sticky top-0">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
@@ -19,12 +20,18 @@ const Navbar = () => {
               <div className="hidden sm:ml-6 sm:block">
                 <div className="flex space-x-4">
                   {/* <!-- Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" --> */}
-                  <a href="/" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
+                  <Link href="/dashboard" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
                     Dashboard
-                  </a>
-                  <a href="/" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
+                  </Link>
+                  <Link href="/employees" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
                     Employees
-                  </a>
+                  </Link>
+                  <Link href="/register" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
+                    Register
+                  </Link>
+                  <Link href="/login" className=" text-gray-500 hover:text-red-500 rounded-md px-2 py-2 text-sm font-medium" aria-current="page">
+                    Login
+                  </Link>
                 </div>
               </div>
             </div>
@@ -38,7 +45,7 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-    </div>
+    </>
   );
 };
 
