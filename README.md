@@ -14,9 +14,9 @@ Nextjs + typescript + tailwindcss + zod
 ## Installation
 ```
 # clone this repository
-$ git clone https://github.com/nandaha29/myquezzy-react.git
+$ git clone https://github.com/nandaha29/fe-hrsystemapp-nextjs
 # move to project folder
-$ cd myquezzy-react/myquiz-app/
+$ cd fe-hrsystemapp-nextjs
 # install dependencies
 $ npm install
 ```
@@ -30,9 +30,9 @@ $ npm run dev
 
 ## Download Source Code
 - link repository github :
-https://github.com/nandaha29/myquezzy-react
+https://github.com/nandaha29/fe-hrsystemapp-nextjs
 - link deploy :
-https://myquezzyapp.vercel.app/
+https://-
 
 ## Loom
 - Link video: 
